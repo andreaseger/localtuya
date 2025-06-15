@@ -1,14 +1,14 @@
 {
   "domain": "localtuya",
-  "name": "LocalTuya integration",
+  "name": "LocalTuya integration - Fork",
   "codeowners": [
-    "@rospogrigio", "@postlund"
+    "@rospogrigio", "@postlund", "@andreaseger"
   ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/rospogrigio/localtuya/",
+  "documentation": "https://github.com/andreaseger/localtuya/",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/rospogrigio/localtuya/issues",
+  "issue_tracker": "https://github.com/andreaseger/localtuya/issues",
   "requirements": [],
-  "version": "5.2.3"
+  "version": "5.2.5"
 }
