@@ -103,10 +103,16 @@ HVAC_MODE_SETS = {
         HVACMode.HEAT: "1",
         HVACMode.AUTO: "0",
     },
+    "Cool/Dry/Fan/Heat": {
+        HVACMode.COOL: "Cool",
+        HVACMode.DRY: "Dry",
+        HVACMode.FAN_ONLY: "Fan",
+        HVACMode.HEAT: "Heat",
+    },
 }
 HVAC_ACTION_SETS = {
     "True/False": {
-        HVACAction.HEATING: True,
+        HVACAction.COOLING: True,
         HVACAction.IDLE: False,
     },
     "open/close": {
@@ -133,6 +139,12 @@ HVAC_FAN_MODE_SETS = {
         FAN_MEDIUM: "middle",
         FAN_HIGH: "high",
         FAN_TOP: "strong",
+    },
+    "Low/Middle/High": {
+        FAN_AUTO: "auto",
+        FAN_LOW: "Low",
+        FAN_MEDIUM: "Mid",
+        FAN_HIGH: "High",
     }
 }
 HVAC_SWING_MODE_SETS = {
