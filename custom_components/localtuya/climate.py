@@ -105,7 +105,7 @@ HVAC_MODE_SETS = {
     },
     "Cool/Dry/Fan/Heat": {
         HVACMode.COOL: "Cool",
-        HVACMode.DRY: "Dry",
+        HVACMode.DRY: "Dyr",
         HVACMode.FAN_ONLY: "Fan",
         HVACMode.HEAT: "Heat",
     },
